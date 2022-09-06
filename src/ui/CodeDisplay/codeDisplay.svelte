@@ -15,7 +15,7 @@
     <ul>
       {#each tabs as tab, index}
         <li>
-          <span on:click={() => handleClick(index)}>{tab.label}</span>
+          <span on:click={() => handleClick(index)} class={activeTabValue === index ? "hello" : ''}>{tab.label}</span>
         </li>
       {/each}
     </ul>
