@@ -1,9 +1,11 @@
 <script>
   import ProductList from './ui/productList/ProductList.svelte';
+  import Input from './ui/input/Input.svelte';
 </script>
 
 <main>
   <ProductList />
+  <Input label="Nom" inputName="Nom"/>
 </main>
 
 <style lang="scss">
