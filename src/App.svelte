@@ -1,16 +1,57 @@
 <script>
+  import svelteLogo from './assets/svelte.svg';
+  import Counter from './lib/Counter.svelte';
+  import Checkbox from './ui/Checkbox.svelte';
+  import Calendar from './ui/Calendar.svelte';
+  import ModalAlert from './ui/ModalAlert.svelte';
   import ProductList from './ui/productList/ProductList.svelte';
   import Input from './ui/input/Input.svelte';
 </script>
 
 <main>
-  <ProductList />
-  <Input label="Nom" inputName="Nom"/>
+  <div>
+    <a href="https://vitejs.dev" target="_blank">
+      <img src="/vite.svg" class="logo" alt="Vite Logo" />
+    </a>
+    <a href="https://svelte.dev" target="_blank">
+      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
+    </a>
+  </div>
+  <h1>Vite + Svelte</h1>
+
+  <div class="card">
+    <Counter />
+  </div>
+
+  <div class="checkbox">
+    <Checkbox
+      content = "Indiquez votre contenu !"
+    />
+  </div>
+
+  <div class="calendar">
+    <Calendar/>
+  </div>
+
+  <div class="">
+    <ProductList />
+    <Input label="Nom" inputName="Nom"/>
+  </div>
+
+  <p>
+    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank">SvelteKit</a>, the official Svelte app framework powered by Vite!
+  </p>
+
+  <p class="read-the-docs">
+    Click on the Vite and Svelte logos to learn more
+  </p>
+
+  <ModalAlert />
+
 </main>
 
 <style lang="scss">
     $color: purple;
-
     .logo {
     height: 6em;
     padding: 1.5em;
