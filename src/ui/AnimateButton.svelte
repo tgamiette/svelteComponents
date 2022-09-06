@@ -7,7 +7,6 @@
   export let nbBlobs = 3
 </script>
 
-
 <button class="btn"
         class:btn-slide-right={ animation === 'slide-right'}
         class:btn-slide-left={ animation === 'slide-left'}
@@ -177,5 +176,4 @@
   $cyan: #0505A9;
   $dark: #FFFFFF;
   $borderW: 2px;
-
-</style>
+  </style>
