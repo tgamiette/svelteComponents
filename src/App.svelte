@@ -3,6 +3,7 @@
   import Counter from './lib/Counter.svelte';
   import Checkbox from './ui/Checkbox.svelte';
   import Calendar from './ui/Calendar.svelte';
+  import ModalAlert from './ui/ModalAlert.svelte'
 </script>
 
 <main>
@@ -37,6 +38,9 @@
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
   </p>
+
+  <ModalAlert />
+
 </main>
 
 <style lang="scss">
