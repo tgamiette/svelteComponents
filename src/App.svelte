@@ -34,8 +34,11 @@
     <Calendar/>
   </div>
 
-  <div class="">
+  <div class="productList">
     <ProductList />
+  </div>
+
+  <div class="Input">
     <Input label="Nom" inputName="Nom"/>
   </div>
 

@@ -64,9 +64,7 @@ nav li .active{
 }
 
 pre{
-  height: 100%;
-  max-width: 70vh;
-
+  height: 70vh;
   background: #383838;
   padding: 20px 0px;
   margin: 0;
