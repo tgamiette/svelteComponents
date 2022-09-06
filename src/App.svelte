@@ -1,6 +1,8 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
+  import svelteLogo from './assets/svelte.svg';
+  import Counter from './lib/Counter.svelte';
+  import Checkbox from './ui/Checkbox.svelte';
+  import Calendar from './ui/Calendar.svelte';
   import ModalAlert from './ui/ModalAlert.svelte'
 </script>
 
@@ -19,6 +21,16 @@
     <Counter />
   </div>
 
+  <div class="checkbox">
+    <Checkbox
+      content = "Indiquez votre contenu !"
+    />
+  </div>
+
+  <div class="calendar">
+    <Calendar/>
+  </div>
+
   <p>
     Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank">SvelteKit</a>, the official Svelte app framework powered by Vite!
   </p>
@@ -33,7 +45,6 @@
 
 <style lang="scss">
     $color: purple;
-
     .logo {
     height: 6em;
     padding: 1.5em;
