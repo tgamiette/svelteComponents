@@ -9,7 +9,7 @@
 </script>
 
 <main>
-<<<<<<< HEAD
+
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite Logo" />
@@ -49,10 +49,6 @@
 
   <ModalAlert />
 
-=======
-  <ProductList />
-  <Input label="Nom" inputName="Nom"/>
->>>>>>> 0162761 ([add] input & label)
 </main>
 
 <style lang="scss">
