@@ -3,10 +3,13 @@
   import Counter from './lib/Counter.svelte';
   import Checkbox from './ui/Checkbox.svelte';
   import Calendar from './ui/Calendar.svelte';
-  import ModalAlert from './ui/ModalAlert.svelte'
+  import ModalAlert from './ui/ModalAlert.svelte';
+  import ProductList from './ui/productList/ProductList.svelte';
+  import Input from './ui/input/Input.svelte';
 </script>
 
 <main>
+<<<<<<< HEAD
   <div>
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite Logo" />
@@ -31,6 +34,11 @@
     <Calendar/>
   </div>
 
+  <div class="">
+    <ProductList />
+    <Input label="Nom" inputName="Nom"/>
+  </div>
+
   <p>
     Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank">SvelteKit</a>, the official Svelte app framework powered by Vite!
   </p>
@@ -41,6 +49,10 @@
 
   <ModalAlert />
 
+=======
+  <ProductList />
+  <Input label="Nom" inputName="Nom"/>
+>>>>>>> 0162761 ([add] input & label)
 </main>
 
 <style lang="scss">
