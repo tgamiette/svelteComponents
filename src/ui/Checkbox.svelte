@@ -1,5 +1,6 @@
 <script>
-    let isActive = false
+    let isActive = false;
+    export let content = "";
 
     const check = () => {
         isActive = !isActive;
@@ -9,5 +10,5 @@
 
 <form>
     <input type="checkbox" id="confirm" name="confirm" on:click={ check }>
-    <label for="confirm">J'accepte les termes et les conditions !</label>
+    <label for="confirm">{ content }</label>
 </form>
