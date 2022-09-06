@@ -1,6 +1,7 @@
 <script>
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
+  import ModalAlert from './ui/ModalAlert.svelte'
 </script>
 
 <main>
@@ -25,6 +26,9 @@
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
   </p>
+
+  <ModalAlert />
+
 </main>
 
 <style lang="scss">
