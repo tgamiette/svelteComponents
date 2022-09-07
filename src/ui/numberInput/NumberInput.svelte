@@ -14,8 +14,11 @@
 
 </script>
 
-<button on:click= { Moins } >-</button>
+<div class="">
+    <button on:click= { Moins } >-</button>
 <label>
 	<input bind:value={ index }>
 </label>
 <button on:click={ Plus } >+</button>
+</div>
+

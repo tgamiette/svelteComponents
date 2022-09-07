@@ -7,10 +7,10 @@
   import ProductList from './ui/productList/ProductList.svelte';
   import Input from './ui/input/Input.svelte';
   import Carrousel from './ui/Carrousel.svelte';
-  import Numberinput from './ui/Numberinput.svelte';
   import AnimateButtonList from "./ui/animateButton/AnimateButtonList.svelte";
   import Dropdown from "./ui/Dropdown.svelte";
   import Navbar from './ui/navbar/NavbarList.svelte';
+import NumberinputList from './ui/numberInput/NumberinputList.svelte';
 
 </script>
 
@@ -55,9 +55,9 @@
   />
   </div>
 
-  <div class="Dropdown">
+  <div class="Counter">
     <h2>Counter</h2>
-    <Numberinput />
+    <NumberinputList/>
   </div>
 
   <div class="Navbar">
