@@ -170,6 +170,8 @@
     list-style-type: none;
     padding-left: 0;
     margin: 5px;
+    animation: growDown 200ms ease-in-out forwards;
+    transform-origin: top center;
     .dropdown-item {
       color: white;
     }
