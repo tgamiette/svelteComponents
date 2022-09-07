@@ -33,9 +33,6 @@
             <label for="confirm">{ content }</label>
           </form>
   
-          <style>
-          </style>
-  
           `
         }]} />
   

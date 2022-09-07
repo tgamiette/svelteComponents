@@ -44,9 +44,6 @@
             </label>
         </p>
   
-          <style>
-          </style>
-  
           `
         }]} />
   

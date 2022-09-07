@@ -1,6 +1,4 @@
 <script>
-  import svelteLogo from './assets/svelte.svg';
-  import Counter from './lib/Counter.svelte';
   import CheckboxList from './ui/checkbox/CheckboxList.svelte';
   import CalendarList from './ui/calendar/CalendarList.svelte';
   import ModalAlertList from './ui/modalAlert/ModalAlertList.svelte';
