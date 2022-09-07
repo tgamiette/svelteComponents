@@ -1,8 +1,8 @@
 <script>
   import svelteLogo from './assets/svelte.svg';
   import Counter from './lib/Counter.svelte';
-  import Checkbox from './ui/Checkbox.svelte';
-  import Calendar from './ui/Calendar.svelte';
+  import CheckboxList from './ui/checkbox/CheckboxList.svelte';
+  import CalendarList from './ui/calendar/CalendarList.svelte';
   import ModalAlert from './ui/ModalAlert.svelte';
   import ProductList from './ui/productList/ProductList.svelte';
   import Input from './ui/input/Input.svelte';
@@ -28,14 +28,12 @@
     <Counter />
   </div>
 
-  <div class="checkbox">
-    <Checkbox
-      content = "Indiquez votre contenu !"
-    />
+  <div class="checkboxList">
+    <CheckboxList />
   </div>
 
   <div class="calendar">
-    <Calendar/>
+    <CalendarList/>
   </div>
 
   <div class="productList">
