@@ -39,17 +39,26 @@
     <Dropdown />
   </div>
 
-  <ModalAlert />
+  <div class="Dropdown">
+    <h2>Modal Alert</h2>
+    <ModalAlert />
+  </div>
 
-  <Carrousel
-  imgs = {
-  ["https://cdn.pixabay.com/photo/2015/07/10/16/05/purple-flowers-839594_1280.jpg",
-  "https://cdn.pixabay.com/photo/2018/06/16/20/44/lavenders-3479492_1280.jpg",
-  "https://cdn.pixabay.com/photo/2012/03/04/00/35/garden-21968_1280.jpg"]
-  }
-/>
+  <div class="Dropdown">
+    <h2>Carrousel</h2>
+    <Carrousel
+    imgs = {
+    ["https://cdn.pixabay.com/photo/2015/07/10/16/05/purple-flowers-839594_1280.jpg",
+    "https://cdn.pixabay.com/photo/2018/06/16/20/44/lavenders-3479492_1280.jpg",
+    "https://cdn.pixabay.com/photo/2012/03/04/00/35/garden-21968_1280.jpg"]
+    }
+  />
+  </div>
 
-<Numberinput />
+  <div class="Dropdown">
+    <h2>Counter</h2>
+    <Numberinput />
+  </div>
 
 </main>
 
