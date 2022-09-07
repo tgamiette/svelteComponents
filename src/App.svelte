@@ -3,7 +3,7 @@
   import Counter from './lib/Counter.svelte';
   import CheckboxList from './ui/checkbox/CheckboxList.svelte';
   import CalendarList from './ui/calendar/CalendarList.svelte';
-  import ModalAlert from './ui/ModalAlert.svelte';
+  import ModalAlertList from './ui/modalAlert/ModalAlertList.svelte';
   import ProductList from './ui/productList/ProductList.svelte';
   import Input from './ui/input/Input.svelte';
   import Carrousel from './ui/Carrousel.svelte';
@@ -39,9 +39,8 @@
     <Dropdown />
   </div>
 
-  <div class="Dropdown">
-    <h2>Modal Alert</h2>
-    <ModalAlert />
+  <div class="ModalAlert">
+    <ModalAlertList />
   </div>
 
   <div class="Dropdown">
