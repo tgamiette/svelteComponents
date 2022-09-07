@@ -1,17 +1,17 @@
 <script>
     import Navbar from './Navbar.svelte';
     import CodeDisplay from '../CodeDisplay/CodeDisplay.svelte';
-  
+
   </script>
-  
+
   <h2>Navbar</h2>
   <section class="navbar">
       <Navbar
-        logo="#"
+        logo="src/assets/svelte.svg"
         items= {[ {link:"", text:"Nouveautés"}, {link:"", text:"Vêtements"}, {link:"", text:"Chaussures"}, {link:"", text:"Accessoires"}, {link:"", text:"Seconde main"} ]}
         links= {[ {link:"", text:"Mon compte"}, {link:"", text:"S'inscrire"} ]}
       />
-  
+
       <CodeDisplay tabs={[
         {label: 'App.svelte',
         value: `
@@ -19,7 +19,7 @@
             import Navbar from './Navbar.svelte';
           </script>
           <Navbar
-                logo="#"
+                logo="src/assets/svelte.svg"
                 items= {[ {link:"", text:"Nouveautés"}, {link:"", text:"Vêtements"}, {link:"", text:"Chaussures"}, {link:"", text:"Accessoires"}, {link:"", text:"Seconde main"} ]}
                 links= {[ {link:"", text:"Mon compte"}, {link:"", text:"S'inscrire"} ]}
             />`
@@ -113,21 +113,20 @@
                 text-decoration: underline;
                 font-weight: normal;
             }
-            </style>  
+            </style>
           `
         }]} />
-  
-  
+
+
   </section>
-  
+
   <style>
-  
+
     .productCard{
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap: 50px;
       width: 100%;
     }
-  
+
   </style>
-  
