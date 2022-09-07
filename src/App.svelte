@@ -6,7 +6,7 @@
   import ModalAlert from './ui/ModalAlert.svelte';
   import ProductList from './ui/productList/ProductList.svelte';
   import Input from './ui/input/Input.svelte';
-  import AnimateButton from "./ui/AnimateButton.svelte";
+  import AnimateButtonList from "./ui/animateButton/AnimateButtonList.svelte";
   import Dropdown from "./ui/Dropdown.svelte";
 
 </script>
@@ -21,9 +21,6 @@
     </a>
   </div>
   <h1>Vite + Svelte</h1>
-  <AnimateButton animation="slide-left" type="submit" label="slide-left"/>
-  <AnimateButton animation="slide-right" type="submit" label="slide-right"/>
-
 
   <div class="card">
     <Counter />
@@ -43,6 +40,10 @@
 
   <div class="Input">
     <Input label="Nom" inputName="Nom"/>
+  </div>
+
+  <div class="productList">
+    <AnimateButtonList />
   </div>
 
   <div class="Dropdown">
