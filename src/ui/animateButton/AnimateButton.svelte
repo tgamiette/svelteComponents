@@ -1,10 +1,10 @@
 <script>
-  export let color = '#ec1313'
-  export let type = ''
+  export let colorBtn = '#234db6'
+  export let fontColor = '#f8f8f8'
+  export let slideColor = '#f8f8f8'
+  export let type = 'button'
   export let label = 'Ceci est un bouton'
-  export let borderRadius = '1rem'
   export let animation = "slide-right"
-  export let nbBlobs = 3
 </script>
 
 <button class="btn"
@@ -12,22 +12,13 @@
         class:btn-slide-left={ animation === 'slide-left'}
         class:btn-slide-blob={ animation === 'slide-blob'}
         type={type}
-        style="text-align:center ;">{label}
-
-  {#if animation === 'slide-blob'}
-    <span class="blob-btn__inner">
-      <span class="blob-btn__blobs">
-    {#each Array(nbBlobs) as _ , index(index)}
-      <span class="blob-btn__blob"></span>
-    {/each}
-</span></span>
-  {/if}
+        style="background-color: {colorBtn} ;text-align:center ;color: {fontColor};">{label}
 </button>
 
 
 <style lang="scss">
-  $btn_color: #234db6;
-  $color: #7a2424;
+  //$btn_color: #234db6;
+  $color: #4992c2;
   $first_color: #FFF;
 
   .btn {
@@ -35,11 +26,11 @@
     position: relative;
     display: inline-block;
     padding: .75rem 1.25rem;
+    margin: .75rem;
     border-radius: 10rem;
     color: $first_color;
     transition: all .3s;
     font-size: 2rem;
-    background-color: $btn_color;
     overflow: hidden;
     z-index: 1;
   }
@@ -146,6 +137,7 @@
     margin: 0;
     padding: 0;
   }
+
   $openSans: 'Open Sans', Helvetica, Arial, sans-serif;
   body {
     background: #333;
@@ -161,6 +153,7 @@
     margin: 0;
     padding: 0;
   }
+
   $openSans: 'Open Sans', Helvetica, Arial, sans-serif;
   body {
     background: #333;
@@ -170,10 +163,10 @@
   .buttons {
     margin-top: 50px;
     text-align: center;
-    border-radius:30px;
+    border-radius: 30px;
   }
 
   $cyan: #0505A9;
   $dark: #FFFFFF;
   $borderW: 2px;
-  </style>
+</style>
