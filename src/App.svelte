@@ -40,7 +40,6 @@
   </div>
 
   <div class="ModalAlert">
-    <h2>Modal Alert</h2>
     <ModalAlertList />
   </div>
 
