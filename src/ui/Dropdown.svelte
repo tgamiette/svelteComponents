@@ -1,5 +1,6 @@
 <script>
     import CodeDisplay from './CodeDisplay/CodeDisplay.svelte';
+    import {scss} from "svelte-preprocess";
     let displayed = false;
     const display = () => {
         displayed = !displayed;
@@ -145,12 +146,11 @@
   }
   .dropdown {
     position: absolute;
-    background-color: #175150;
+    background-color: #ffb72a;
     border-radius: 8px;
     .btn {
       display: flex;
       align-items: center;
-      background-color: #175150;
       .mi {
         display: flex;
         vertical-align: center;
@@ -162,7 +162,7 @@
     }
     &:hover {
       button {
-        border-color: #175150;
+        border-color: transparent;
       }
     }
   }
@@ -172,9 +172,6 @@
     margin: 5px;
     animation: growDown 200ms ease-in-out forwards;
     transform-origin: top center;
-    .dropdown-item {
-      color: white;
-    }
     &.dropdown-menu-enable {
       display: block;
     }

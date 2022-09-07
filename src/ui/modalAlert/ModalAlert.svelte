@@ -70,12 +70,12 @@
 
             &-cancel {
                 border-radius: 4px;
-                background-color: gray;
+                background-color: lightgray;
             }
 
             &-confirmation {
                 border-radius: 4px;
-                background-color: red;
+                background-color: #cf6c62;
             }
         }
     }

@@ -3,9 +3,9 @@
   import CodeDisplay from '../CodeDisplay/CodeDisplay.svelte';
 </script>
 
-<section class="carrouselCard">
+<div class="carrouselCard">
   <div class="">
-    <Carrousel 
+    <Carrousel
     imgs = {
       ["https://cdn.pixabay.com/photo/2015/07/10/16/05/purple-flowers-839594_1280.jpg",
       "https://cdn.pixabay.com/photo/2018/06/16/20/44/lavenders-3479492_1280.jpg",
@@ -13,7 +13,7 @@
       }
     />
   </div>
-
+<div>
   <CodeDisplay tabs={[
       {label: 'App.svelte',
       value: `
@@ -25,33 +25,33 @@
       },{
         label:'Carrousel.svelte',
         value: `
-        <script>    
+        <script>
     export let imgs = [];
 
     let currentImg = 0;
-  
+
     const prevImg = () => {
       currentImg -= 1;
-  
+
       if (currentImg < 0) {
         currentImg = imgs.length - 1;
       }
     };
-  
+
     const nextImg = () => {
       currentImg += 1;
-  
+
       if (currentImg > imgs.length - 1) {
         currentImg = 0;
       }
     };
-  
+
   </script>
-  
+
   <figure>
     <img src={ imgs[currentImg] } alt="carrousel" id="img" >
   </figure>
-  
+
   <nav>
     <button on:click={ prevImg }>
       preview
@@ -60,7 +60,7 @@
       next
     </button>
   </nav>
-  
+
   <style>
     #img {
       width: 500px;
@@ -69,8 +69,8 @@
         `
       }]}/>
 
-
-</section>
+</div>
+</div>
 
 <style>
     .carrouselCard {

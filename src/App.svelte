@@ -1,4 +1,6 @@
 <script>
+  import svelteLogo from './assets/svelte.svg';
+  import Counter from './lib/Counter.svelte';
   import CheckboxList from './ui/checkbox/CheckboxList.svelte';
   import CalendarList from './ui/calendar/CalendarList.svelte';
   import ModalAlertList from './ui/modalAlert/ModalAlertList.svelte';
@@ -13,50 +15,68 @@
 </script>
 
 <main>
-
-  <div class="checkboxList">
-    <CheckboxList />
+  <div class="card">
+    <h1>Composants Svelte</h1>
+    <div class="checkboxList">
+      <CheckboxList />
+    </div>
   </div>
 
-  <div class="calendar">
-    <CalendarList/>
+  <div class="card">
+    <div class="calendar">
+      <CalendarList/>
+    </div>
   </div>
 
-  <div class="productList">
-    <ProductList />
+  <div class="card">
+    <div class="productList">
+      <ProductList />
+    </div>
   </div>
 
-  <div class="Input">
-    <Input label="Nom" inputName="Nom"/>
+  <div class="card">
+    <div class="Input">
+      <Input label="Nom" inputName="Nom"/>
+    </div>
   </div>
 
-  <div class="productList">
-    <AnimateButtonList />
+  <div class="card">
+    <div class="productList">
+      <AnimateButtonList />
+    </div>
   </div>
 
-  <div class="Dropdown">
-    <Dropdown />
+  <div class="card">
+    <div class="Dropdown">
+      <Dropdown />
+    </div>
   </div>
 
-  <div class="ModalAlert">
-    <ModalAlertList />
+  <div class="card">
+    <div class="ModalAlert">
+      <ModalAlertList />
+    </div>
   </div>
 
-  <div class="Carrousel">
-    <h2>Carrousel</h2>
-    <CarrouselList />
+  <div class="card">
+    <div class="Carrousel">
+      <h2>Carrousel</h2>
+      <CarrouselList />
+    </div>
+  </div>
+  
+  <div class="card">
+    <div class="Counter">
+      <h2>Counter</h2>
+      <NumberInputList />
+    </div>
   </div>
 
-  <div class="Counter">
-    <h2>Counter</h2>
-    <NumberInputList/>
+  <div class="card">
+    <div class="Navbar">
+      <NavbarList />
+    </div>
   </div>
-
-  <div class="Navbar">
-    <h2>Navbar</h2>
-    <NavbarList />
-  </div>
-
 </main>
 
 <style lang="scss">
