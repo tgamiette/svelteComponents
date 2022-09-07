@@ -1,6 +1,4 @@
 <script>
-  import svelteLogo from './assets/svelte.svg';
-  import Counter from './lib/Counter.svelte';
   import CheckboxList from './ui/checkbox/CheckboxList.svelte';
   import CalendarList from './ui/calendar/CalendarList.svelte';
   import ModalAlertList from './ui/modalAlert/ModalAlertList.svelte';
@@ -9,10 +7,8 @@
   import CarrouselList from './ui/carrousel/CarrouselList.svelte';
   import AnimateButtonList from "./ui/animateButton/AnimateButtonList.svelte";
   import Dropdown from "./ui/Dropdown.svelte";
-  import Navbar from './ui/navbar/NavbarList.svelte';
-  import NumberInput from "./ui/NumberInput/NumberInput.svelte";
+  import NavbarList from './ui/navbar/NavbarList.svelte';
   import NumberInputList from "./ui/NumberInput/NumberInputList.svelte";
-  import Carrousel from "./ui/carrousel/Carrousel.svelte";
 
 </script>
 
@@ -48,13 +44,7 @@
 
   <div class="Carrousel">
     <h2>Carrousel</h2>
-    <CarrouselList
-    imgs = {
-    ["https://cdn.pixabay.com/photo/2015/07/10/16/05/purple-flowers-839594_1280.jpg",
-    "https://cdn.pixabay.com/photo/2018/06/16/20/44/lavenders-3479492_1280.jpg",
-    "https://cdn.pixabay.com/photo/2012/03/04/00/35/garden-21968_1280.jpg"]
-    }
-  />
+    <CarrouselList />
   </div>
 
   <div class="Counter">
@@ -64,7 +54,7 @@
 
   <div class="Navbar">
     <h2>Navbar</h2>
-    <Navbar />
+    <NavbarList />
   </div>
 
 </main>
