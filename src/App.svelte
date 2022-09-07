@@ -7,15 +7,16 @@
   import ProductList from './ui/productList/ProductList.svelte';
   import Input from './ui/input/Input.svelte';
   import AnimateButton from "./ui/AnimateButton.svelte";
+  import Dropdown from "./ui/Dropdown.svelte";
 
 </script>
 
 <main>
   <div>
-    <a href="https://vitejs.dev" target="_blank"> 
+    <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite Logo" />
     </a>
-    <a href="https://svelte.dev" target="_blank"> 
+    <a href="https://svelte.dev" target="_blank">
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div>
@@ -42,6 +43,10 @@
 
   <div class="Input">
     <Input label="Nom" inputName="Nom"/>
+  </div>
+
+  <div class="Dropdown">
+    <Dropdown />
   </div>
 
   <p>
