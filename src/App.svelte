@@ -6,12 +6,13 @@
   import ModalAlertList from './ui/modalAlert/ModalAlertList.svelte';
   import ProductList from './ui/productList/ProductList.svelte';
   import Input from './ui/input/Input.svelte';
-  import Carrousel from './ui/Carrousel.svelte';
+  import CarrouselList from './ui/carrousel/CarrouselList.svelte';
   import AnimateButtonList from "./ui/animateButton/AnimateButtonList.svelte";
   import Dropdown from "./ui/Dropdown.svelte";
   import Navbar from './ui/navbar/NavbarList.svelte';
   import NumberInput from "./ui/NumberInput/NumberInput.svelte";
   import NumberInputList from "./ui/NumberInput/NumberInputList.svelte";
+  import Carrousel from "./ui/carrousel/Carrousel.svelte";
 
 </script>
 
@@ -45,9 +46,9 @@
     <ModalAlertList />
   </div>
 
-  <div class="Dropdown">
+  <div class="Carrousel">
     <h2>Carrousel</h2>
-    <Carrousel
+    <CarrouselList
     imgs = {
     ["https://cdn.pixabay.com/photo/2015/07/10/16/05/purple-flowers-839594_1280.jpg",
     "https://cdn.pixabay.com/photo/2018/06/16/20/44/lavenders-3479492_1280.jpg",
