@@ -42,7 +42,9 @@
         </script>
 
         <section class="productCard">
-          <div class="productCard_img">
+
+
+          // <div class="productCard_img">
             <img src={image} alt="Image produits" />
           </div>
 

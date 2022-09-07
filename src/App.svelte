@@ -10,7 +10,8 @@
   import AnimateButtonList from "./ui/animateButton/AnimateButtonList.svelte";
   import Dropdown from "./ui/Dropdown.svelte";
   import Navbar from './ui/navbar/NavbarList.svelte';
-import NumberinputList from './ui/numberInput/NumberinputList.svelte';
+  import NumberInput from "./ui/NumberInput/NumberInput.svelte";
+  import NumberInputList from "./ui/NumberInput/NumberInputList.svelte";
 
 </script>
 
@@ -57,7 +58,7 @@ import NumberinputList from './ui/numberInput/NumberinputList.svelte';
 
   <div class="Counter">
     <h2>Counter</h2>
-    <NumberinputList/>
+    <NumberInputList/>
   </div>
 
   <div class="Navbar">
