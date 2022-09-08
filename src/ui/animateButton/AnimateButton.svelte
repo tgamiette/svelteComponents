@@ -12,7 +12,6 @@
         style="text-align:center ;color: {fontColor};">{label}
 </button>
 
-
 <style lang="scss">
   $color: #ffb72a;
 
