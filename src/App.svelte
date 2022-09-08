@@ -6,7 +6,7 @@
   import Input from './ui/input/Input.svelte';
   import CarrouselList from './ui/carrousel/CarrouselList.svelte';
   import AnimateButtonList from "./ui/animateButton/AnimateButtonList.svelte";
-  import Dropdown from "./ui/Dropdown.svelte";
+  import DropdownList from "./ui/dropdown/DropdownList.svelte";
   import NavbarList from './ui/navbar/NavbarList.svelte';
   import NumberInputList from "./ui/NumberInput/NumberInputList.svelte";
 
@@ -45,8 +45,8 @@
   </div>
 
   <div class="card">
-    <div class="Dropdown">
-      <Dropdown />
+    <div class="DropdownList">
+      <DropdownList />
     </div>
   </div>
 
@@ -62,7 +62,7 @@
       <CarrouselList />
     </div>
   </div>
-  
+
   <div class="card">
     <div class="Counter">
       <h2>Counter</h2>
