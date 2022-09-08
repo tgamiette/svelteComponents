@@ -12,8 +12,15 @@
     </div>
     <CodeDisplay tabs={[
         {label: 'App.svelte',
-        value: '<Dropdown />'},
-        {
+        value:`
+          <script>
+            import Dropdown from './Dropdown.svelte';
+          </script>
+          <Dropdown
+                texts="{["#"]}"
+            />`
+
+                 },{
           label:'Dropdown.svelte',
           value: `
           <script>

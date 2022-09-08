@@ -15,7 +15,9 @@
           <script>
             import Checkbox from './Checkbox.svelte';
           </script>
-          <Checkbox />`
+          <Checkbox
+          content = "Indiquez votre contenu !"
+          />`
         },{
           label:'Checkbox.svelte',
           value: `
